@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bg{
+    position:fixed;
+    left:0;right:0;
+    top:0;bottom:0;
+    margin:auto;
+    background:url(../img/bg2.png) 0 0 repeat;
+}
+.scence{
+    width:620px;
+    height:620px;
+    border-top:1px solid #E7921B;
+    border-left:1px solid #E7921B;
+    margin:20px auto;
+    /*background:#666;*/
+    background:url(../img/bg.png) 0 0 repeat;
+}
+.square{
+    width:30px;
+    height:30px;
+    float:left;
+    border-right:1px solid #E7921B;
+    border-bottom:1px solid #E7921B;
+}
+.snake{
+    background:url(../img/tail.png) 0 0 repeat;
+    /*background:#64DF26;*/
+}
+.snake.top{
+    background:url(../img/top.png) 0 0 repeat;
+}
+.food{
+    background:url(../img/food.png) center center no-repeat;
+    background-size:100%;
+}
+.snake.head.right{
+    background:url(../img/snake.png) center center no-repeat;
+    background-size:30px 30px;
+}
+.snake.head.left{
+    background:url(../img/left.png) center center no-repeat;
+    background-size:30px 30px;
+}
+.snake.head.shang{
+    background:url(../img/shang.png) center center no-repeat;
+    background-size:30px 30px;
+}
+.snake.head.xia{
+    background:url(../img/xia.png) center center no-repeat;
+    background-size:30px 30px;
+}
+.show{
+    display:none;
+    width:250px;
+    height:180px;
+    position:absolute;
+    left:0;right:0;
+    top:0;bottom:0;
+    margin:auto;
+    background:url(../img/timg.jpg) center center no-repeat;
+    z-index:3;
+    border-radius:15px;
+    box-shadow: 3px 3px 5px #5E8836;
+    cursor:pointer;
+}
+.show h4{
+    width:80px;
+    height:80px;
+    text-align: center;
+    line-height:80px;
+    font-size:24px;
+    margin:0 auto;
+}
+.show .btn{
+   width:70px;
+   height:30px;
+   background:url(../img/bg1.jpg) center center repeat;
+   margin:0 auto;
+   margin-top:20px;
+   line-height:30px;
+   text-align: center;
+   box-shadow: 0 0 3px #666;
+   border-radius:10px;
+   font-family:"楷体";
+}
